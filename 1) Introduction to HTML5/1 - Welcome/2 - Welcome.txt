@@ -1,0 +1,23 @@
+Week 1:
+	- Focus on questions:
+		- What happens when you type an address into a URL?
+		- What types of tools you need to code (editors and browsers)?
+		- What is HTML5?
+
+Week 2:
+	- A little bit of theory and code:
+		- The DOM (document object model)
+		- Contextual tags and headings
+
+Week 3:
+	- Putting it all together
+		- Validating your code
+			- Syntax
+			- Accessibility
+		- Domain name registration and web Hosting
+
+Final Project:
+	- Create a syntactically valid multipage website
+	- Must pass W3C Validation
+	- Must pass WAVE accessibility review
+	- It'll be 'ugly' since we won't be focusing on styling

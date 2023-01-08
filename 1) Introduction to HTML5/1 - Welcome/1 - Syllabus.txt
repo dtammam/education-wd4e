@@ -1,0 +1,30 @@
+We focus on the following:
+
+	- What HTML is and how we got from the original version to HTML5
+
+	- The "magic" behind the Internet and how your web page isn't just one file, but many pieced put together by your browser using something called  the Response/Request Cycle
+
+	- The syntax behind the tags -- how to write good syntactic HTML.
+
+	- The semantics behind the tags - some tags have special meaning and are extremely useful if you want to make your pages accessible.  Accessible pages are ones that can be accessed by the widest range of people and that includes those who have  physical or cognitive disabilities.
+
+	- Getting your page on the web - This class will not require you to post your site on the Internet.  However, you will learn how to publish your site if you choose.  (And we hope you do and share your work with me and others in the class.)
+
+You can see the grading breakdown below for each assignment:
+
+	Quiz: Week One - HTML/Web basics
+	15%
+
+	Quiz: Tags!
+	20%
+
+	Quiz: Hosting and Validation
+	20%
+
+	Peer Review: Final Project
+	25%
+
+	Quiz: Final Quiz - Putting it Together
+	20%
+
+Throughout the entire course there will be an emphasis on the importance of good habits and examples of potential pitfalls.  This course is about learning the proper syntax of HTML5 and styling is not covered.  You can see an example site at http://intro-webdesign.com/html5-plain.html. However, upon completion of this course you will be ready to take the next course in the Web Design Specialization, Introduction to CSS3.
