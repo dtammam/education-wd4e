@@ -1,3 +1,8 @@
+01.00 - Syllabus.txt
+
+___
+
+
 We focus on the following:
 
 	- What HTML is and how we got from the original version to HTML5

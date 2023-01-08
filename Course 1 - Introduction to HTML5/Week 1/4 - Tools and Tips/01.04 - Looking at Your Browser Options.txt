@@ -1,0 +1,35 @@
+01.04 - Looking at Your Browser Options.txt
+
+___
+
+
+Different Browsers
+- Different browsers have their pros and cons
+- Most people have a preferred browser
+- You need to test your site on multiple browsers
+
+Internet Explorer
+- For a long time, one of the most popular browsers because it was preinstalled on Microsoft Windows.
+- Platform dependent.
+
+Microsoft Edge
+- In 2015 the new Windows 10 operating system included Microsoft Edge.
+- Edge is meant to replace Internet Explorer.
+
+Google Chrome
+- Freeware browser developed by Google
+- First released in 2008 for Microsoft Windows, ported to Linux, macOS, iOS and Android
+- Greater security
+
+Firefox
+- Free and open-source browser developed by Mozilla
+- Available for Windows, macOS, Linux, and different BSD operating systems
+
+Issue of Accessibility
+- http:/www.html5accessibility.com/ keeps a review of the accessibility of browsers
+- Browsers should have keyboard functionality, support HTML5 tags, and support features for assistive technology
+
+Review
+- Browsers can vary in how well they adhere to HTML5 standards
+- Different versions of browsers need to be considered as well
+- Test in a variety of browsers!

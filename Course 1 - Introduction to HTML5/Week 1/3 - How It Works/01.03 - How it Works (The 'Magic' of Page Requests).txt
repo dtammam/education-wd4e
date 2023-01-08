@@ -1,0 +1,78 @@
+01.03 - How it Works (The 'Magic' of Page Requests).txt
+
+___
+
+
+How Does This All Work?
+	http://si.umich.edu
+- When you type an address into the URL bar, what happens?
+
+Client/Server Relationship
+- Servers
+	- Machines that hold shared resources
+	- Always connected to the network
+
+- Clients
+	- Machines for personal use (laptops, phones, etc.)
+
+Request/Response Cycle
+- This is what happens when your computer (the client) requests a page and a server responds with the appropriate files.
+
+Uniform Resource Locator
+	http://si.umich.edu
+- URL has three parts:
+	- Protocol - how to connect
+	- Domain - the server*
+	- (Optional) Document - the specific file needed
+		- Most pages are made up of multiple files
+
+Protocols
+- HTTP - Hypertext Transfer Protocol
+- HTTPS - Secure Hypertext Transfer Protocol
+- FTP - File Transfer Protocol
+
+Domain Names
+- Identifies the entity you want to connect to
+	- umich.edu, google.com, wikipedia.org
+- Each has different top-level domain (TLD) edu, com, org
+	- Determined by Internet Corporation for Assigned Names and Numbers (ICANN)
+	- https://www.icann.org/resources/pages/tlds-2012-02-25-en
+
+IP Addresses
+- Internet Protocol Version 6 (IPv6) is the communication protocol that identifies computers on networks.
+- Every computer has a unique IP address
+	xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx
+where x can have 16 different values.
+- Can represent over 300 trillion unique combinations (2 to the 128th power)!
+
+The Domain Name Server (DNS)
+- Luckily, you don't need to remember the IP address of a domain.
+- The DNS will lookup the IP address based on the URL you type in.
+
+Document
+- URLs can specify a specific Document
+	- http://www.intro-webdesign.com/contact.html (contact.html)
+	- http://www.intro-webdesign.com/Ashtabula/harbor.html (Ashtabula/harbor.html)
+- If no document is specified, the default document is returned.
+	- Convention is index.html
+
+The Request
+- Once the IP address is determined, the browser creates an HTTP request.
+- Lots of hidden information in this request
+	- Header, cookies, form data, etc.
+
+The Response
+- The server returns files, not web pages
+	- It is up to the browser to decide what to do with those files
+- If the server can't fulfill the request it will send back files with error codes: 404, 500, etc.
+
+What Literally Happens When You Type "http://si.umich.edu/" into the address bar and press Enter:
+1. The browser looks up the domain in DNS
+2. The DNS returns the IP address 54.88.175.189
+3. The browser sends an HTTP request to the server located at that address
+4. The server finds the requested file and sends it back as a response
+5. The browser takes the response and renders the HTML code as a nice graphical presentation, often repeating steps 3-4 as needed to request images and other supporting files
+
+Review
+- A URL has three parts.
+- Request/Response cycle typically requires multiple rounds of communication between the client and server.

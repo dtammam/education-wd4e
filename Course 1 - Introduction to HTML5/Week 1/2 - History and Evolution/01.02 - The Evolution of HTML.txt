@@ -1,0 +1,74 @@
+01.02 - The Evolution of HTML.txt
+
+___
+
+
+What is HTML?
+- HTML stands for Hypertext Markup Language
+- Markup langages are not the same as programming languages, they use tags to annotate documents.
+- In HTML the tags indicate where headings, images, lists, links, line breaks and other components should go.
+
+.html Files
+- When your computer opens a .html file, it knows to open it in an Internet Browser (Chrome, Firefox, Safari, etc.)
+- The browser can read this file and know how to display it on the screen.
+- Screen readers and other assistive devices can also utilize the HTML tags to present the information in special ways.
+- HTML is similar to english.
+
+"Learning" HTML
+- In the beginning we worry about syntax
+	- What tags are there?
+	- Did I remember to "end" my tag?
+- Later we will worry about semantics
+	- Is there a tag that better conveys the meaning I am trying to get across?
+	- If someone is searching my page can they find what they need and access it easily?
+
+Early Years
+- HTML1 was created in 1990 as a way to electronically connect documents via hyperlinks (hence a "web" of connections)
+- In 1993, Mosaic emerged as the first graphical browser and introduced the idea of images
+- World wide web proliferates at a 341634% annual growth rate of service traffic
+- Mosaic had challengers though in the form of Netscape (1994), Internet Explorer (1995) and others
+
+The Browser Wars
+- Browsers had proprietary tags
+	- <marquee>...</marquee> (scrolling text)
+	- <blink>...</blink> (blinking text)
+- Other tags that went against the spirit of the original tenets of HTML were added, e.g. <font>, <center>, and <bgcolor>
+- Origination of "Best viewed on" messages between browsers
+
+Web Standards
+- No one "runs" the Internet or the Web, some groups do take proactive roles:
+	- Internet Engineering Task Force (IETF)
+	- World Wide Web Consortium (W3C)
+	- The Web Accessibility Initiative (WAI)
+
+Evolution of Browsers
+	_Years_			_Example_
+	1990-1994		HTML was simple, content was primarily text-based
+	1993			Mosaic enters the scene with images and BOOM!
+	1995-1999		Cross-browser compatibility falls apart
+	2000-2005		Browsers move toward separating content from style
+	2005-2008		Using HTML files in coordination with CSS becomes the new standard
+
+Evolution of HTML
+	_Years_			_Version and References_
+	1993			HTML 1.0 - Developed by Tim Berners-Lee to link documents
+	1995			HTML 2.0 - Developed by Internet Engineering Task Force RFC to include stylized text and tables
+	1996			CSS 1
+	1997			HTML 4.0 - A move back to normalizing the pages across platforms
+	1998			CSS 2
+	1999			HTML 4.01 - Introduced different document types
+	2012			HTML 5 - Back to HTML plus multimedia and semantic tags
+
+Where are we now?
+- HTML5 is a cooperation between W3C and the Web Hypertext Application Technology Working Group (WHATWG)
+- Established guidelines
+	- New features should be based on HTML, CSS, the DOM, and JavaScript
+	- Reduce the need for external plugins (e.g. Flash)
+	- More markup to replace scripting
+	- HTML5 should be device independent
+
+Review
+- Browsers translate HTML documents into viewable webpages
+- HTML was intended to facilitate content types
+- When designers want to do something new they write non-standard code to force browsers to do it
+- New standards are written to handle new requirements and browsers adopt the new standards

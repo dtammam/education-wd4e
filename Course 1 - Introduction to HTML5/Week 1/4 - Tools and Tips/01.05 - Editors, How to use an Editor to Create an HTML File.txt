@@ -1,0 +1,31 @@
+01.05 - Editors, How to use an Editor to Create an HTML File.txt
+
+___
+
+
+Creating and Editing Your Files
+	1. Decide on how you will organize your Files
+	2. Decide on a naming convention
+		- dash-between, camelCase
+		- No spaces, Consistent capitalization
+	3. Decide on an Editor
+		- Windows (Notepad, Notepad++, Sublime)
+		- Mac (TextEdit, TextWrangler, Sublime)
+
+Getting Started
+	1. Open your Editor
+	2. Select Save or Save As and name your File
+	3. Add Doctype, head and body tags
+	4. Save File
+	5. Open in a browser
+
+Troubleshooting
+- My file opens in an editor, not a browser!
+	- Right-click and select 'Open with...'
+- My browser shows my tags!
+	- Check that the file extension is .html
+- I changed my code, but my page looks the same.
+	- Refresh your browser
+	- Verify file name
+- I get 'weird' characters.
+	- Try typing code in by hand, not copy-and-paste
