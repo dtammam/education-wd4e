@@ -1,0 +1,85 @@
+Readings.txt
+
+___
+
+
+Lesson 2: Getting to Know HTML https://learn.shayhowe.com/html-css/getting-to-know-html/
+Semantics Overview
+	- Semantics with HTML is the practice of giving content on the page meaning and structure by using the proper element
+	- Semantics describes the value of content on a page, regardless of style or appearance
+
+Identifying Divisions & Spans
+	- <div> and <span> exist specifically for styling purpose
+	- <div> and <span> are elements that act as containers and come with no meainng or value
+	- Block-level elements begin on a new line, inline-level elements do not begin on a new line
+	- A <div> is a block-level element that is commonly used to identify large groupings of content
+	- A <span> is an inline-level element commonly used to identify smaller groupings of text within a block-level element
+	- We'll commonly see <div> and <span> with class or id attributes for styling
+	- A comment in HTML looks like this <!-- Hello comment -->
+
+Using Text-Based Elements
+	- Headings are block-level elements with different rankings, <h1> through <h6>
+	- Paragraphs are block-level and often follow headings like this: <p> </p>
+	- Bold text with strong, text-level uses <strong> and <b> elements
+		- <strong> is used to give strong importance to text
+		- <b> stylistically offsets text
+	- Italicize text with emphasis, text-level with <em> and <i>
+		- <em> is stressed emphasis
+		- <i> is an alternative voice or tone
+
+Building structure
+	- For a long time web pages were structured with <div>s but this was an issue because there was no semantic value and you couldn't easily understand the intent
+	- HTML5 introduced structurally basd elements:
+		- <header>
+		- <nav>
+		- <article>
+		- <section>
+		- <aside>
+		- <footer>
+
+-------------------------------------------------------------------------------------------------------------
+												<header>
+-------------------------------------------------------------------------------------------------------------
+------------------------------------------------------	|													|
+														|													|
+				<section>								|													|
+														|													|
+   ------------------------------------------------		|													|
+														|						<aside>						|
+				<article>								|													|
+														|													|
+   ------------------------------------------------		|													|
+														|													|
+														|													|
+------------------------------------------------------	|													|
+-------------------------------------------------------------------------------------------------------------
+												<footer>
+-------------------------------------------------------------------------------------------------------------
+
+	- <header> is used to identify the top of a page/article
+		- <header>...</header>
+		- The <header> element is a structural element that outlines the heading of a segment of a page. It falls within the <body> element.
+		- The <head> element is not displayed on a page and is used to outline metadata, including the document title, and links to external files. It falls directly within the <html> element.
+		- Heading elements, <h1> through <h6>, are used to designate multiple levels of text headings throughout a page.
+	- <nav> is a section of major navigational links
+		- <nav>...</nav>
+	- <article> is used to identify a section of independent, self-contained content
+		- <article>...</article>
+	- <section> is used to identify a thematic grouping of content, which generally, but not always, includes a heading
+		- <section>...</section>
+	
+
+PAUSING HERE FOR NOW
+RESUME HERE:
+
+https://learn.shayhowe.com/html-css/getting-to-know-html/#:~:text=Deciding%20Between%20%3Carticle%3E%2C%20%3Csection%3E%2C%20or%20%3Cdiv%3E%20Elements
+
+
+Lesson 8: Creating Lists https://learn.shayhowe.com/html-css/creating-lists/ (Only read up to "List Item Styling")
+- 
+
+Lesson 9: Adding Media https://learn.shayhowe.com/html-css/adding-media/ (Only read up to "Sizing Images")
+- 
+
+Lesson 11: Organizing Your Data with Tables https://learn.shayhowe.com/html-css/organizing-data-with-tables/ (Only read up to "Combining Multiple Cells")
+- 

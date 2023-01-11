@@ -3,4 +3,56 @@
 ___
 
 
-The first line of notes here...
+The Document Object Model (DOM)
+- Basis of HTML5 is "New features should be based on HTML, CSS, the DOM and JavaScript..."
+- DOM provides common tree-like structure that all pages should follow
+- Computer scientists love trees (mathematical kind) because you can test them
+
+- At the root of the tree, we will create <html>
+	--- We then want the <head>
+	------ Where we'll put our <title>
+	--------- Where we'll put our <title>'s text
+
+	--- And then want the body
+	------ Where we'll put all of our html tags, like <a> href
+	--------- Where we'll put all of our html tags, like <a> href's text
+	------ Where we'll put all of our html tags, like <h1>
+	--------- Where we'll put all of our html tags, like <h1>'s text
+
+Three parts of a well-formed document:
+- Doctype
+	- Version of HTML that you will be using
+- Head
+	- Metadata
+- Body
+	- Displayable content
+
+Doctype
+- HTML5
+	- <!DOCTYPE html>
+
+- Previous versions dictated backwards compatibility
+	- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+Head
+- Additional information used by the browser
+	- Metadata - language, title
+	- Supporting files - JavaScript, styling, add-ons
+	- Title - The small title of the pages
+- Other than title, metadata is not displayed
+
+Body
+- Bulk of your page
+- Important to write well-formatted (tree-like) code
+- Most of the content is displayed by the browser, but there may be some metadata too
+
+Validate the Code
+- https://validator.w3.org
+
+Review
+- Well-formed pages use the DOM structure
+	- Use beginning and end tags
+	- Close inner tags before outer ones
+	- Use valid attributes
+- Browsers will "fix" bad code, but not always well. Use a validator to check your code
