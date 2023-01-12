@@ -1,9 +1,10 @@
-Readings.txt
+Lesson 2 - Getting to Know HTML.txt
 
 ___
 
 
 Lesson 2: Getting to Know HTML https://learn.shayhowe.com/html-css/getting-to-know-html/
+
 Semantics Overview
 	- Semantics with HTML is the practice of giving content on the page meaning and structure by using the proper element
 	- Semantics describes the value of content on a page, regardless of style or appearance
@@ -67,19 +68,13 @@ Building structure
 		- <article>...</article>
 	- <section> is used to identify a thematic grouping of content, which generally, but not always, includes a heading
 		- <section>...</section>
-	
-
-PAUSING HERE FOR NOW
-RESUME HERE:
-
-https://learn.shayhowe.com/html-css/getting-to-know-html/#:~:text=Deciding%20Between%20%3Carticle%3E%2C%20%3Csection%3E%2C%20or%20%3Cdiv%3E%20Elements
-
-
-Lesson 8: Creating Lists https://learn.shayhowe.com/html-css/creating-lists/ (Only read up to "List Item Styling")
-- 
-
-Lesson 9: Adding Media https://learn.shayhowe.com/html-css/adding-media/ (Only read up to "Sizing Images")
-- 
-
-Lesson 11: Organizing Your Data with Tables https://learn.shayhowe.com/html-css/organizing-data-with-tables/ (Only read up to "Combining Multiple Cells")
-- 
+	- Deciding Between <article>, <section> or <div> Elements
+		- It can be difficult to pick the right element, but look at the context
+		- <article> and <section> contribute to a content's structure. If it's being grouped solely for styling purposes and doesn't provide value to the outline, use <div>
+		- If the content adds to the outline and can be independently redistributed or syndicated, use <article>
+		- If the content adds to the outline and represents a thematic group of content, use <section>
+	- <aside> holds content, such as sidebars, inserts or brief explanations, which is tangientally related to the content surrounding it.
+		- Appears to the left or right of a page, and is block-level
+		<aside>...</aside>
+	- <footer> identifies the closing/ending of a page, article, section or other segment
+		- <footer>...</footer>

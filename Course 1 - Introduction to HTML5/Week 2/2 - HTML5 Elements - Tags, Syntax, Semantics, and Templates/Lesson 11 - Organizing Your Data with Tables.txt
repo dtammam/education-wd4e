@@ -1,0 +1,8 @@
+Lesson 11 - Organizing Your Data with Tables.txt
+
+___
+
+
+Lesson 11: Organizing Your Data with Tables https://learn.shayhowe.com/html-css/organizing-data-with-tables/ (Only read up to "Combining Multiple Cells")
+
+- 
