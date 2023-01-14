@@ -1,0 +1,85 @@
+02.05 - Images.txt
+
+___
+
+
+Images - it's more than the tag
+	- Many file types are widely supported
+		- JPEG (.jph and .jpeg), GIF, and PNG
+		- SVG and BML are additional options
+		- File extensions must be included
+	- Every image must be downloaded, so size can be a factor
+	- Every Image requires an HTTP request
+
+Image Sizes
+	- When you link to an image the browser displays the image as big (or small) as the file.
+		- This size is rarely optimal
+	- "Quick" solutons - change file, use width/height attributes
+
+Using an Editor
+	- Editors can be used to permanently change the size of an image
+		- Only works on local files
+	Built-in software for this includes Preview (Mac) and Paint (Windows)
+
+Using Attributes
+	- Always strive to keep style out of your HTML files but...
+	- <img> tag includes width and height attributes
+
+Default Image Size
+	<figure>
+		<img src = "imgs/Ashtabula.jpg"
+		alt = "My house">
+		<figcaption>Default image size</figcaption>
+	</figure>
+
+Using Width in Pixels
+	<figure>
+		<img src = "imgs/Ashtabula.jpg"
+		width = "500px"
+		alt = "My house">
+		<figcaption>Set image size</figcaption>
+	</figure>
+
+Using Width in Pixels
+	<figure>
+		<img src = "imgs/Ashtabula.jpg"
+		width = "500px"
+		height = "100px"
+		alt = "My house">
+		<figcaption>Skewed image size</figcaption>
+	</figure>
+
+Using Percentages
+	<figure>
+		<img src = "imgs/Ashtabula.jpg"
+		width = "50%"
+		alt = "My house">
+		<figcaption>Relative image size</figcaption>
+	</figure>
+
+Favicons
+	- You can put image/logo/icon next to the title of your page (in the tab)
+	- Must be .ico or .png
+	- Must go in <head> section
+		<link rel="icon" type="image/png" href="imgs/wd4elogo.png" />
+
+Alternative Text Attribute
+	- Provides a textual alternative to non-text content
+	- Read by screen readers
+	- Displayed in place of Images
+	- Provides semantic meaning for search engines
+
+Creating Good alt text
+	- Be accurate
+	- Be succinct
+	- Don't be redundant
+	- Don't include "picture of...", "graphic of..."
+
+Empty alt text
+	- It is okay to leave alt text empty (null)
+		- Decorative images used for non-informative purpose
+	- Don't skip the alt attribute, though!
+
+Review:
+	- Misuse of file extensions, filename, and file paths are often a problem
+	- For now, style the height/width in the html code.

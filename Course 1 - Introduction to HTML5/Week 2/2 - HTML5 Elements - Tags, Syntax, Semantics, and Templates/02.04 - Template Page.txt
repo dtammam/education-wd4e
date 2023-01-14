@@ -1,0 +1,9 @@
+02.04 - Template Page.txt
+
+___
+
+
+Minimum Requirements
+- Create a page called index.html
+- Page should utilize header, main, and footer elements. Should NOT be empty.
+- Make sure the page validates!

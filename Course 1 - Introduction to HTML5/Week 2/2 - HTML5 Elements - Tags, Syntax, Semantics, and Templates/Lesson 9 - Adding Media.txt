@@ -1,0 +1,33 @@
+Lesson 9 - Adding Media
+
+___
+
+
+Lesson 9: Adding Media https://learn.shayhowe.com/html-css/adding-media/ (Only read up to "Sizing Images")
+
+- We can freely use images, audio, video and inline frames across all browsers.
+
+Adding Images
+- To add an image use <img> inline element.
+- `src` element is the source of the file and `alt` is the alternative text to convey the purpose of the image
+	<img src="dog.jpg" alt="A black, brown and white dog wearing a kerchief">
+
+- Supported image formats:
+	- gif
+	- jpg
+	- png
+
+Sizing Images
+	- Sized with `width` and `height` attributes within the <img> tag
+	- CSS uses them too, if in use, CSS takes precedence
+	- Done on a pixel basis
+		img {
+			height: 200px;
+			width: 200px;
+		}
+
+Positioning Images
+	- By default images are positioned as inline-level elements
+	- Positions may be changed with CSS using `float` and `display`
+	- Box model properties are `padding`, `border` and `margin`
+		<p>Gatsby is a black, brown and white hound mix puppy who loves howling at fire trucks. <img src="dog.jpg" alt="A black, brown and white dog wearing a hankerchief"> Although he spends most of the time sleeping, he's quick,</p>

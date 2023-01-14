@@ -1,0 +1,23 @@
+02.03 - Semantic Tags.txt
+
+___
+
+
+- The most important step in web design is design. You need a clear picture of what you want to create before you start.
+- <figure> is a figure semantic tag
+
+Other New Tags
+	- Structural Elements
+		- article, aside, main, menuitem, summary, section
+	- Form Elements
+		- datalist, keygen, output
+	- Input Types
+		- color, date, email, list
+	- Graphics Elements
+		- canvas, svg
+	- Media Elements
+		- audio, embed, source, track, video
+
+Review:
+	- The age of <div> is ending
+	- Semantic tags help guide users to information in your page

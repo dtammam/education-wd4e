@@ -1,8 +1,54 @@
+Lesson 8 - Creating Lists.txt
+
+___
+
+
 Lesson 8: Creating Lists https://learn.shayhowe.com/html-css/creating-lists/ (Only read up to "List Item Styling")
-- 
 
-Lesson 9: Adding Media https://learn.shayhowe.com/html-css/adding-media/ (Only read up to "Sizing Images")
-- 
+Lists Overview
+- HTML provides three types of lists to choose from:
+	- Unordered
+	- Ordered
+	- Description
+- Multiple ways to style the lists
 
-Lesson 11: Organizing Your Data with Tables https://learn.shayhowe.com/html-css/organizing-data-with-tables/ (Only read up to "Combining Multiple Cells")
-- 
+Unordered Lists
+- Simply a list of related items whose order doesn't matter
+- Unordered list block-level element
+- Starts with <ul> unorganized list element, each line underneath <li>
+	- <ul>
+		<li>Orange</li>
+		<li>Blue</li>
+		<li>Green</li>
+	</ul>
+
+Ordered Lists
+- Ordered list is similar to unordered except starts with <ol> and are numbered versus bulleted when displayed
+
+	- <ol>
+		<li>Head north on N Halsted St</li>
+		<li>Turn right on the first parkwayt</li>
+		<li>After 500 feet you have reached yur destination</li>
+	</ol>
+	- Also have unique attributes available including 'start' and 'reversed'
+
+	Start attribute
+	- Defines the number from which an ordered list should start
+	- Only accepts integer values even though ordered lists may use other types of numerals
+
+	Reversed attribute
+	- Reverses the order of the numbers in an ordered list
+
+	Value attribute
+	- May be used on an individual <li> to change its' value within the list
+
+Description Lists
+- Not as common as the others but still used- Used to outline multiple terms and their descriptions like a glossary
+- Starts with a <dl> element
+- Instead of <li> uses a description term <dt> and descrption element <dd>
+- <dt> must come before <dd>
+- By default, <dl> element will include vertical margins like <ul> and <ol>
+
+Nesting Lists
+- <ul> and <ol> can only contain <li> elements 
+- Nested lists will change iconography depending on the level
