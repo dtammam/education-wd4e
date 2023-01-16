@@ -1,6 +1,6 @@
 # Web Design for Everybody
 
-`Hello world!`Back at it again, looking to enter the world of web development.
+`Hello world!` Back at it again, looking to enter the world of web development.
 It's 1/8/2023 and at this stage of my programming journey, I now know and can implement solutions in:
 
    - A hodgepodge of older Microsoft languages (VBScript, Batch Script)
