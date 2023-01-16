@@ -1,0 +1,8 @@
+Font Awesome Demo.txt
+
+___
+
+
+- Free and open source icons/fonts: https://fontawesome.com/search?m=free&o=r
+- Really cool way to incorporate additional icons onto your web page(s)
+- Doesn't get processed with screen readers

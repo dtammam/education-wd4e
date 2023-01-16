@@ -43,7 +43,8 @@ Ordered Lists
 	- May be used on an individual <li> to change its' value within the list
 
 Description Lists
-- Not as common as the others but still used- Used to outline multiple terms and their descriptions like a glossary
+- Not as common as the others but still used
+- Used to outline multiple terms and their descriptions like a glossary
 - Starts with a <dl> element
 - Instead of <li> uses a description term <dt> and descrption element <dd>
 - <dt> must come before <dd>

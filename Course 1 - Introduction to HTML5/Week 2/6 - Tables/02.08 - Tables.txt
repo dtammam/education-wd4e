@@ -1,0 +1,49 @@
+02.08 - Tables.txt
+
+___
+
+
+Design
+- Make sure to sketch your layout before you code.
+- Decide on the number of rows and columns
+- Decide if any rows/columns will span multiple cells
+
+The Tags
+- <table> - the container tag
+- <tr>..</tr> - the rows
+- <td<..</td> - the columns
+
+Simple Table
+	<table>
+		<tr><td>One</td><td>Two</td><td>Three</td></tr>
+		<tr><td>Four</td><td>Five</td><td>Six</td></tr>
+		<tr><td>Seven</td><td>Eight</td><td>Nine</td></tr>
+	</table>
+
+Table Headings
+- How would you add table headings (the bold cells at the top)
+- Some people use bold font, we use semantic tags
+<th>..</th> - table heading
+
+	<table>
+		<tr><th>Row One</th><th>Row Two</th><th>Row Three</th></tr>
+		<tr><td>One</td><td>Two</td><td>Three</td></tr>
+		<tr><td>Four</td><td>Five</td><td>Six</td></tr>
+		<tr><td>Seven</td><td>Eight</td><td>Nine</td></tr>
+	</table>
+
+Spanning Multiple Cells
+- It may be the case that your table won't be a perfect grid.
+- You can combine multiple rows and/or columns using the rowspan and colspan attributes.
+
+The Border Attribute
+- There are a number of attributes that tables can take, but in your HTML you should avoid styling
+
+Captions
+- How do you link text to the table? A heading (h2, h3, etc.) will look good, but doesn't provide semantics.
+- Use <caption>
+
+Review
+- Tables should only be used for tabular data
+- Draw your table befoer you code your table
+- Check for unclosed tags

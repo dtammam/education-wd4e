@@ -1,0 +1,75 @@
+02.06 - Hyperlinks.txt
+
+___
+
+
+Links
+- Links are what makes the Web a web.
+- The interlinked nature of the web leads to the "knowledge" that search engines appear to have.
+
+Anchor Links
+<a href="http://www.umich.edu">University of Michigan</a>
+- The <a> tag stands for anchor link
+- Needs a hyper-reference AND content
+	- href: Reference to location of new content
+	- content: The "clickable" part (text or image)
+
+Types of Links:
+- Absolute
+- Relative
+I Internal
+- Graphical
+
+Absolute Reference:
+<a href="http://www.intro-webdesign.com/">Web Design</a>
+	- <a... > = Opening tag
+	- </a> = Closing tag
+	- "http://www.intro-webdesign.com/" = Where to go on click
+	- Web Design = Clickable text
+
+Relative References
+<a href="page2.html">Second Page</a>
+	- page2.html = Link to a local file in the same folder
+
+<a href="docs/page2.html">Second Page</a>
+	- docs/page2.html = Link to a local file in a different folder called "docs"
+
+<a href="#history">History section</a>
+	- #history = Link to a different location in the same file
+
+Absolute vs Relative
+- When would you use absolute links?
+	- When you are not in charge of the page, someone elwse
+
+- When would you use relative links?
+	- When you are in charge of your own webpages
+	- Simpler to manage if migrating files from server to server... don't need to rename anything
+	- Your lihnks should never have folders that are specific to your computer like 'C:\page2.html'
+
+Using Images as the Link
+- The "clickable" component doesn't have to be text.
+
+	<a href=http://www.redcross.org"?><img src = "imgs/redcross-logo.png" alt = "Red Cross logo"/></a>
+	<a href="http://www.redcross.org">
+		<img src = "http://www.redcross.org/images/redcross-logo.png" alt = "Red Cross logo"/>
+	</a>
+
+Usability Issues
+- Make sure the clickable component has an informative name
+- Information in the images should be availabile to those who can't see the image
+
+You can set reference zones with 'id's:
+	<div id = "relative">
+		<h2>Relative References</h2>
+		<p>Stuff and words and things</p>
+
+Targets
+- Anchors can take a target attribute
+	- _self - default action
+	- _blank - open in a new tab or window
+	- _top and _parent
+
+Review:
+- A page without links is rare
+- Links can be absolute, relative and internal
+- Use caution when using images in links

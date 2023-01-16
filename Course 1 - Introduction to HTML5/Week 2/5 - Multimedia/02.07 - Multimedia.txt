@@ -1,0 +1,46 @@
+02.07 - Multimedia.txt
+
+___
+
+
+Objectives:
+- Describe HTML5 audio and video elements
+- Explain the purpose of plugins
+- Reflect on Acessibility issues
+
+HTML5 Multimedia:
+- Designed to avoid the use of extra software to play music/video
+- Not fully implemented
+
+Video element <video>
+- Video tag uses a src attribute or embedded <source>
+- Common attributes:
+	- height, width
+	- autoplay
+	- loop
+	- controls
+- Text inside <video>...</video> is displayed if browser cannot support the tag
+
+Audio element <audio>
+- Audio tag uses a src attribute to link to audio file, typically .mp3 or .wav
+- Common attributes:
+	- autoplay, controls, loop
+	- buffered
+	- muted
+	- volume
+
+Setting clips
+- You can set both the video and audio elements to play clips by adding to the src attribute:
+	- .ext#t=5, 25
+	- .ext#t=, 39
+	- .ext#t=, 1:38:45
+	- .ext#t=42
+
+Plugins
+- Before HTML5 there was no standard for video display, plugins were required
+- Since not all browsers suport new tag some may require flash
+
+Accessibility Issues
+- Make sure to provide links to plugins
+- Include text descriptions and closed captioning (or other equivalent content)
+- Multimedia should enhance your content, not be a distraction

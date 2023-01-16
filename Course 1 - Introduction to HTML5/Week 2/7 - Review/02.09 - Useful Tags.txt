@@ -1,0 +1,49 @@
+02.09 - Useful Tags.txt
+
+___
+
+
+Choosing Your Tags
+- Generic 
+	- <p>
+	- <div>
+
+- Semantic
+	- <header>
+	- <nav>
+	- <footer>
+	- <figure>
+
+Block Tags (forces a newline above and below)
+- Containers
+	- <article>
+	- <aside>
+	- <section>
+	- <main>
+- <hr> - horizontal rule, contains no text at all
+- <address> - allows screenreaders to quickly find an address
+- <blockquote> - has cite attribute
+- <details> with <summary> - dropdown open/close idea with text
+
+Inline Tags (can be put in the page, aligned one after another)
+- <span> was the original inline tag for plain text
+- <cite> - easier for people and bots to search for this info
+- <abbr> - hover-over functionality to expand the abbreviated text, good for accessibility
+- <time> - gives extra semantic meaning, good for descriptor of a time of an event, good for mobile
+- <code> - identifies code fragment, typically displayed in a different font
+- <sub> (subscript) - for mathematical formulas, raise the 3
+- <sup> (superscript) - for mathematical formulas, lower the 2\
+
+Tags that need "more"
+- <button> - a button to click to do a thing
+- <meter> - shows a visual meter
+- <progress> - similar to meter except with the assumption of progression to 100, shows proportional value
+- <iframe> - often used to embed documents
+- <bdo> bidirectional orientation - attribute dir (ltr, left to right or rtl, right to left) think Arabic language
+- <map> with <area> - creates "clickable element in image" but needs JavaScript
+
+Review
+- Use the most specific tag possible
+- Sometimes tags "don't work"
+	- Run your code through a validator, you may have a syntax error
+	- Run your code in multiple browsers (good idea even if your code looks good)
