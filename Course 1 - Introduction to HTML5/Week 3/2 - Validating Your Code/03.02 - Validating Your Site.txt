@@ -1,0 +1,23 @@
+03.02 - Validating Your Site.txt
+
+___
+
+
+Why validate?
+- Browsers are the helicopter parents of programming
+- As your pages become more complex "hidden" areas can be devastating
+
+Three approaches
+1. Validate by URI
+2. Validate by Filename
+3. Validate by Direct Input
+
+Don't freak out!
+- Errors propagate, so always start at the top
+- Search for solutions online and in forums
+
+Accessibility Validation
+- You can use wave.webaim.org to validate accessibility
+
+Review
+- Validated sites are more robust and more accessible

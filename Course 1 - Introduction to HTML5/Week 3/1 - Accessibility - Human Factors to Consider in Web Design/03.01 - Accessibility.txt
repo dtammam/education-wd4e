@@ -3,4 +3,84 @@
 ___
 
 
-Start here
+Goals:
+- Learn what a web accessibility professional does
+- Understand how disabilities relate to the web
+- Introduce the four principles of accessible interface design
+
+What does a "web accessibility coordinator" do?
+- Helps guide policy and purchsing decisions
+- Evaluates web interfaces for accessibility
+- Assists those with disabilities to access online infrastructure
+- Keep pace with changing technology
+
+1 in 5 People Have a Disability
+- There are 60 million people with disabilities in the US
+	- Half are impeded using the internet
+	- Visual issues
+	- Hearing issues
+	- Motor issues
+	- Cognitive issues
+
+Visual Disabilities
+- Blindness, low-vision, color-blindness
+- 8 million have difficulty reading ordinary newsprint (even with glasses)
+	- 1.8 million are completely blind
+- How is your font-size, color-contrast, font-style?
+
+Hearing Disabilities
+- Partial to total deafness
+- 8 million have difficulty hearing a normal conversation
+	- 1 million are completely deaf
+- Do your videos include closed-captioning? Are you blaring music?
+
+Motor Disabilities
+- Inability to use a mouse or physical keyboard, slow response time, limited fine motor control
+- Dexterity issues
+	- 8 million Americans have difficulty using ther arms or hands
+- What happens when someone tries to "tab" through your page? Do you require a steady hand?
+
+Cognitive Issues
+- Learning disabilities, distractibility, dyslexia, inability to remember or focus on large amounts of information
+	- 16 million adults with ADD/ADHD
+- 38% of soldiers, 31% of Marines and 49% of National Guard members returniung from combat report psychological conditions such as TBI and PTSD
+- Cognifitive disabilities number greater than physical and perceptual disabilities combined
+
+More Stats
+- 8.3% of the U.S. population have 2 or more disabilities
+- 40,000 people in the U.S. are both deaf and blind
+- 41% of adults 65 and older have a disability
+- 8.7 million people with disabilities are poor
+- 70% of disabled are unemployed or underemployed
+
+The web offers unprecedented opportunities for disabled
+- Education
+- News
+- Commerce
+- Social
+- Benefits of web are amplified for the disabled!
+- Web is an enabling technology
+
+Legal
+- DOJ is in the process of revising Title II and Title III of the ADA to include online resources of state and local entities
+- Case law - individuals or entities can file civil rights complaints, e.g., Penn State, NYU, Northwestern, FSU, Target, Southwest Airlines, Priceline.com, Ramada, Kindle, etc.
+
+What is web accessibility?
+- Making the web accessible for the widest possible audience
+- This audience includes Temporarily Able-Bodied users (TABs)
+- Currently, online infrastructure is hostile to those with disabilities
+- Inseparable from SEO, mobile, and usability: improve one and you improve the others
+- Best way to accomplish accessibility, Adherence to standards.
+
+W3C WCAG 2.0
+- W3C Web Content Accessibility Guidelines are principle-, not technology-based
+- The four principles (POUR):
+	- Perceivable
+	- Operable
+	- Understandable
+	- Robust
+
+Review
+- Designing with accessibility in mind is the right thing to do for many reasons
+- Adhering to standards (not flashy, cool effects) is key
+- Pay special attention to teh semantics behind the HTML5 tags
