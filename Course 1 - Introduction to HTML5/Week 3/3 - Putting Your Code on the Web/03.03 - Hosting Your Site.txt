@@ -3,4 +3,31 @@
 ___
 
 
-Useful extension to simulate disabilities for web accessibility engineering.
+Domain names
+- Typically purchased for multiple years at a cheap rate
+- Most common is .com, but other extentions are gaining acceptance
+- Domain names are useless on their own
+
+Hosting
+- What is your URL right now?
+- You need a registered IP address to connect with your domain name
+- Hosting services vary
+	- Free
+	- Mid-range
+	- Full-service
+
+Free services
+- Little/no control of domain name
+- Limited tools
+- Advertising and redirects
+- Familiar look and feel across them
+
+Paid services
+- Tend to have better tools
+- Support is available
+- But check for free services through work/school
+
+Signing up for Byethost
+- https://byethost.com
+- Remember your password!
+- Check your spam!

@@ -1,0 +1,31 @@
+03.04 - cPanel.txt
+
+___
+
+
+Connecting to CPanel
+- You will need to have the URL for your cPanel account
+	- Usually a version of your domain name or your hosting service domain name
+
+File Manager
+- Regardless of the cPanel configuration, every system should have a File Manager.
+- From the File Manager, search for the public_html (or in some cases, just public) folder.
+
+public_html
+- Your site will have a lot of files, some that you want people to see, some that you don't.
+- Uploading files to public_html folder should make them viewable to the public
+
+Wait? Why can't I view my file?
+- You typed in the wrong URL
+- When you uploaded the file the transfer didn't work
+- When you uploaded the file, it did not have "read access" and would need permissions changed
+
+Working locally
+- It is possible to edit your files via cPanel but I don't do that
+	- Changes are immediately public
+	- Less opportunity to test and debug
+
+Review
+- Versions of cPanel often differ depending on if you are using paid or free site
+- Offers many administrative tools (email accounts, database management, cron jobs)
+- An alternative is to use sftp to transfer files

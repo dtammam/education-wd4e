@@ -1,0 +1,9 @@
+03.04a - Creating a GitHub Pages Account.txt
+
+___
+
+
+- N/A, standard GitHub account, I already have one
+- Refering to this GitHub knowledge article:
+
+http://vernalex.com/guides/malware/define.shtml
