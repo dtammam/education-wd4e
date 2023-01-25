@@ -6,4 +6,4 @@ ___
 - N/A, standard GitHub account, I already have one
 - Refering to this GitHub knowledge article:
 
-http://vernalex.com/guides/malware/define.shtml
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
