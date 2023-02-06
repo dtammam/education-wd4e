@@ -4,17 +4,22 @@ ___
 
 ### Color Conventions
 - Color names (blue, red, yellow, etc.) work, but should be avoided
+
 - Hexaecimal is common convention
-	- #0000FF (Blue)
-	- #FF0000 (Red)
-	- #FFFF00 (Yellow)
+
+		- #0000FF (Blue)
+		- #FF0000 (Red)
+		- #FFFF00 (Yellow)
 - rgb
-	- (0, 0, 1) (Blue)
-	- (1, 0, 0) ()
-	- (1, 1, 0)
+
+		- (0, 0, 1) (Blue)
+		- (1, 0, 0) ()
+		- (1, 1, 0)
+
 - rgba
-	- a stands for alpha transparency
-	(0, 0, 1, .5) (blue with transparency, if last value is 1, it's opaque)
+
+		- a stands for alpha transparency
+		(0, 0, 1, .5) (blue with transparency, if last value is 1, it's opaque)
 
 ### Accessibility
 - Appropriate use of color is critical to web accessibility
