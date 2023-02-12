@@ -2,7 +2,7 @@
 Referencing [this style guide](https://www.markdownguide.org/basic-syntax/ "Basic syntax") for best practice note taking.
 ___
 
-## Height and Width
+### Height and Width
 - The default width of inline elements is the content
 - Elements that are not inline can take width and height properties - we saw this in the 'Display' lecture.
 
@@ -27,7 +27,7 @@ ___
 - outset
 - hidden
 
-## Border width and color
+### Border width and color
 - Width
 	- Set in pixels or *thin*, *medium* or *large*
 - Color
