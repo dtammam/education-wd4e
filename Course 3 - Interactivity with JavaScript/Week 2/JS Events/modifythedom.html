@@ -1,0 +1,13 @@
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Modify the DOM</h1>
+    <button onclick="document.getElementById('stuff').innerHTML = 'I pressed the first thing';">First</button>
+
+    <button onclick="document.getElementById('stuff').innerHTML = 'Oh boy, I pressed the second';">Third</button>
+
+<p>This code shouldn't change.</p>
+<p id="stuff">This will change.</p>
+<p>This shouldn't change either.</p>
+</body>
