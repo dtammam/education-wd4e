@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="JS - Checkbox Example 1.css">
+        <script src="JS - Checkbox Example 1.js"></script>
+    </head>
+    <body>
+        <form action="http://www.intro-webdesign.com" method = "GET">
+            <fieldset>
+                <legend>Form Verification</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" required><br/>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" required><br/>
+                <label for="yesNickname">Nickname?:</label>
+                <input id="yesNickname" name="yesNickname" type="checkbox" value="yes" onchange="nicknameFunction()"/><br/>
+                    
+                <div id="nicknameSection" style="display: none;">
+                    <label for="nickname">Nickname:</label>
+                    <input type="text" name="nickname" id = "nickname"><br/>
+                </div>
+                
+                <input type="submit" value="Verify"/>
+            </fieldset>
+        </form>
+    </body>
+</html>
