@@ -15,6 +15,7 @@ nav{
 nav a{
 	box-sizing:border-box;
 	display:inline-block;
+	/* A nifty way to center text */
 	line-height: 45px;
 	height:60px;
 	color: #FFFFFF;
